@@ -1,18 +1,39 @@
-https://quadcode-shivam.github.io/CKeditor/
-|
-|
-In PHP, CKEditor is often integrated into web applications to provide a user-friendly interface for editing text content. Developers can incorporate CKEditor into their PHP projects by including the necessary CKEditor files in the project directory and then utilizing PHP to render the editor within their web pages.
+# Quad Pulse CKEditor
 
-Here's a brief overview of how CKEditor can be used in PHP:
+This project is a learning experiment where I've integrated CKEditor (a rich text editor) into a React application. The goal is to understand how to use CKEditor in React, customize it, and implement its features. While the project is still in progress, it provides a basic implementation that you can build upon.
 
-1. **Download CKEditor**: Developers can download CKEditor from the official website (https://ckeditor.com/ckeditor-4/download/) and extract the files into their project directory.
+## Features
 
-2. **Include CKEditor in PHP Files**: Within the PHP files where text editing is required, developers include CKEditor by referencing the CKEditor script files in the HTML markup. This typically involves including the CKEditor JavaScript file in the `<head>` section of the HTML document.
+- **Rich Text Editing**: Allows users to create and edit content using a rich text editor.
+- **Toolbar Customization**: Basic toolbar options are set up, with potential for further customization.
+- **React Integration**: CKEditor is integrated into React as a controlled component.
+- **Learning Purpose**: This project is aimed at understanding how CKEditor works with React and will be extended over time.
 
-3. **Integration with PHP Backend**: CKEditor itself is a client-side editor, so it works independently of the server-side language being used. However, developers often use PHP on the backend to handle data submitted through CKEditor forms, such as saving the edited content to a database or processing it in some other way.
+## Tech Stack
 
-4. **Customization**: CKEditor can be customized to fit the specific needs of the project. This includes configuring toolbar options, enabling/disabling features, and integrating plugins to extend functionality.
+- **Frontend**: React.js
+- **Editor**: CKEditor 5
+- **Tools**: Node.js, npm
 
-5. **Security Considerations**: When integrating CKEditor into PHP applications, developers must consider security implications, such as preventing cross-site scripting (XSS) attacks by properly sanitizing user input.
+## Installation
 
-Overall, CKEditor provides a convenient solution for incorporating rich text editing capabilities into PHP applications, enhancing the user experience for content creation and editing.
+To run this project locally on your machine, follow the steps below:
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/yourusername/quad_pulse_CKeditor.git
+cd quad_pulse_CKeditor
+
+Contact
+Feel free to reach out to me via:
+
+Email: shivam.qcoder@gmail.com
+
+### How to Use the README
+
+1. Replace `yourusername` in the clone command with your actual GitHub username or repository URL.
+2. If there is an email or phone number for contact, feel free to replace the placeholders (`your.email@example.com` and `+1234567890`) with actual information.
+3. You can copy and paste this `README.md` into your project root folder, and it will be displayed on GitHub automatically.
+
+This `README.md` provides clear instructions on setting up the CKEditor in a React project, what features are available, what is yet to be done, and how others can contribute to the project.
